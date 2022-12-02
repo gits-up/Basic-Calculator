@@ -10,7 +10,7 @@ public class Main {
             System.out.println("Enter two numbers:");
             num1 = sc.nextDouble();
             num2 = sc.nextDouble();
-            System.out.println("Enter an operator (+, -, *, /) or press (#) to exit calculator:");
+            System.out.println("Enter an operator (+, -, *, /,%) or press (#) to exit calculator:");
             options = sc.next().charAt(0);
             switch (options) {
                 case '+':
@@ -24,6 +24,9 @@ public class Main {
                     break;
                 case '/':
                     ans = num1 / num2;
+                    break;
+                case '%':
+                    ans = num1 % num2;
                     break;
                 case '#':
                     System.exit(0);
