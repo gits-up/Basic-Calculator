@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class OptimisedBasicCalculator {
+public class Main {
     public static void main(String[] args) {
         double num1;
         double num2;
@@ -31,7 +31,7 @@ public class OptimisedBasicCalculator {
                     System.out.println("Enter correct options");
                     return;
             }
-            System.out.println("Result:");
+            System.out.print("Result: ");
             System.out.println(num1 + " " + options + " " + num2 + " = " + ans);
         }
     }
