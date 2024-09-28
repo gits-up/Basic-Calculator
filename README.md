@@ -1,4 +1,4 @@
-# Basic-Calculator-
+# Basic-Calculator
 
 a) Registration Number: 2241002021 
 b) Telegram Username: gitsup 
